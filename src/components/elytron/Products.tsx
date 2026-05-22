@@ -86,11 +86,13 @@ export function Products() {
             <div className="mt-auto flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-t border-background/15 pt-6">
               <div>
                 <div className="text-xs font-mono opacity-60 uppercase tracking-wider">À vista</div>
-                <div className="font-display text-3xl sm:text-4xl mt-1">R$499,00</div>
-                <div className="text-xs opacity-60 mt-1">ou 10x de R$50 sem juros</div>
+                <div className="font-display text-3xl sm:text-4xl mt-1">R$189,99</div>
+                <div className="text-xs opacity-60 mt-1">ou 10x de R$19,00 sem juros</div>
               </div>
               <a
-                href="#"
+                href="https://go.perfectpay.com.br/PPU38CQCA72"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex w-full sm:w-auto justify-center items-center gap-2 rounded-full bg-background text-ink px-5 py-3 text-sm font-medium md:hover:scale-[1.03] transition-transform"
               >
                 Comprar agora →
@@ -152,13 +154,15 @@ export function Products() {
                   Acesso vitalício
                 </div>
                 <div className="flex items-baseline gap-2 mt-1">
-                  <span className="font-display text-3xl sm:text-4xl">R$289,99</span>
-                  <span className="text-sm text-muted-foreground line-through">R$349,00</span>
+                  <span className="font-display text-3xl sm:text-4xl">R$129,99</span>
+                  <span className="text-sm text-muted-foreground line-through">R$259,00</span>
                 </div>
                 <div className="text-xs text-muted-foreground mt-1">+ certificado oficial</div>
               </div>
               <a
-                href="#"
+                href="https://go.perfectpay.com.br/PPU38CQCA3U"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex w-full sm:w-auto justify-center items-center gap-2 rounded-full bg-ink text-background px-5 py-3 text-sm font-medium md:hover:scale-[1.03] transition-transform"
               >
                 Garantir vaga →
@@ -175,12 +179,14 @@ export function Products() {
             </span>
             <span className="text-sm">
               <strong className="font-display">JARVIS + Curso</strong> · pague{" "}
-              <strong>R$789,98</strong>{" "}
-              <span className="text-muted-foreground line-through">R$1199,99</span>
+              <strong>R$319,98</strong>{" "}
+              <span className="text-muted-foreground line-through">R$448,99</span>
             </span>
           </div>
           <a
-            href="#"
+            href="https://go.perfectpay.com.br/PPU38CQCA72"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium underline underline-offset-4 hover:no-underline"
           >
             Levar os dois →

@@ -34,12 +34,10 @@ export function Header() {
           <img
             src={elytronLogo}
             alt="Elytron"
-            className={`h-16 w-16 rounded ${
+            className={`h-10 w-auto object-contain rounded ${
               scrolled ? "drop-shadow-sm" : "drop-shadow-[0_2px_12px_rgba(0,0,0,0.35)]"
             }`}
             loading="eager"
-            width={64}
-            height={64}
           />
           <span className="font-display text-lg font-semibold tracking-tight">elytron</span>
           <span className="hidden sm:inline text-[10px] font-mono uppercase tracking-[0.2em] text-muted-foreground ml-1">

@@ -1,3 +1,5 @@
+import elytronLogo from "../../../logo-elytron.png";
+
 export function Footer() {
   return (
     <footer className="border-t hairline">
@@ -5,9 +7,12 @@ export function Footer() {
         <div className="grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-2">
-              <div className="h-7 w-7 rounded-full bg-ink flex items-center justify-center">
-                <div className="h-2 w-2 rounded-full bg-background" />
-              </div>
+              <img
+                src={elytronLogo}
+                alt="Elytron"
+                className="h-8 w-auto object-contain rounded drop-shadow-sm"
+                loading="lazy"
+              />
               <span className="font-display text-lg font-semibold">elytron</span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-ink-soft">

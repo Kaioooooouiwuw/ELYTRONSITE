@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Play } from "lucide-react";
 import smartHome from "@/assets/smart-home.jpg";
 import { useState } from "react";
-import jarvisVideo from "../../../jarvis.video.mp4";
+// import jarvisVideo from "../../../jarvis.video.mp4";
 
 export function Demo() {
   const [playing, setPlaying] = useState(false);
@@ -41,7 +41,7 @@ export function Demo() {
         >
           {playing ? (
             <video
-              src={jarvisVideo}
+              src={""}
               className="absolute inset-0 h-full w-full object-cover"
               onClick={(e) => e.stopPropagation()}
               controls

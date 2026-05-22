@@ -53,6 +53,8 @@
   --animate-blink: blink 1s steps(2, start) infinite;
   --animate-pulse-ring: pulse-ring 2.4s ease-out infinite;
   --animate-rise: rise 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-fade-up: fade-up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-hud-scan: hud-scan 4s linear infinite;
 }
 
 :root {
@@ -121,6 +123,14 @@
   from { opacity: 0; transform: translateY(24px); }
   to { opacity: 1; transform: translateY(0); }
 }
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes hud-scan {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(100%); }
+}
 
 @layer base {
   * {
@@ -163,5 +173,14 @@
     display: flex;
     width: max-content;
     animation: var(--animate-marquee);
+  }
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .glow-pulse {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+    animation: pulse 2s infinite;
   }
 }

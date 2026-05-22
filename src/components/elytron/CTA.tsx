@@ -29,18 +29,22 @@ export function CTA() {
             </div>
             <div className="lg:col-span-4 flex flex-col gap-3">
               <a
-                href="#"
+                href="https://go.perfectpay.com.br/PPU38CQCA72"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-between rounded-full bg-background text-ink px-6 py-4 text-base font-medium hover:scale-[1.02] transition-transform"
               >
                 Comprar JARVIS
-                <span className="font-mono text-sm">R$500 →</span>
+                <span className="font-mono text-sm">R$189,99 →</span>
               </a>
               <a
-                href="#"
+                href="https://go.perfectpay.com.br/PPU38CQCA72"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-between rounded-full border border-background/20 px-6 py-4 text-base font-medium hover:bg-background/10 transition-colors"
               >
                 Combo + curso
-                <span className="font-mono text-sm">R$650 →</span>
+                <span className="font-mono text-sm">R$319,98 →</span>
               </a>
             </div>
           </div>

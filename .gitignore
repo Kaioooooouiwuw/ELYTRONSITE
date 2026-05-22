@@ -35,3 +35,8 @@ dist-ssr
 *.psd
 *.mp4
 *.mov
+
+.env
+
+# Local Netlify folder
+.netlify

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroOrb from "@/assets/hero-orb.jpg";
+import { ParticleSphere } from "./ParticleSphere";
 
 export function Hero() {
   return (
@@ -59,7 +59,7 @@ export function Hero() {
                 href="#produto"
                 className="group inline-flex items-center gap-3 rounded-full bg-ink text-background pl-6 pr-2 py-2 text-base font-medium transition-all hover:scale-[1.02]"
               >
-                Comprar JARVIS — R$499,99
+                Comprar JARVIS — R$189,99
                 <span className="h-9 w-9 rounded-full bg-background/15 flex items-center justify-center group-hover:translate-x-0.5 transition-transform">
                   →
                 </span>
@@ -99,15 +99,9 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.2 }}
             className="lg:col-span-5 relative"
           >
-            <div className="relative aspect-square rounded-3xl overflow-hidden bg-ink">
-              <img
-                src={heroOrb}
-                alt="Núcleo neural JARVIS"
-                className="absolute inset-0 h-full w-full object-cover opacity-90"
-                width={1536}
-                height={1536}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
+            <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-none mx-auto aspect-square rounded-3xl overflow-hidden bg-black border border-white/10 flex items-center justify-center">
+              <ParticleSphere />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
 
               {/* Floating chips */}
               <motion.div
